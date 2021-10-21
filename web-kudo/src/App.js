@@ -1,9 +1,14 @@
-import './App.css';
+
+import NavBar from "./NavBar.js";
+import Body from "./Body.js";
+import Footer from "./Footer.js";
 
 function App() {
   return (
     <div>
-    Hello world
+    <NavBar/>
+    <Body/>
+    <Footer/>
     </div>
   );
 }
