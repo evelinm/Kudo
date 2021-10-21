@@ -1,9 +1,16 @@
+
+import styled from "styled-components";
+
 function Body(){
    return(
-       <div>
+       <BodyColor>
            this is the body
-       </div>
+       </BodyColor>
    )
 
 }
 export default Body;
+
+const BodyColor = styled.div`
+  background-color: purple;
+`;
