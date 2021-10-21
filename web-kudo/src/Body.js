@@ -12,5 +12,6 @@ function Body(){
 export default Body;
 
 const BodyColor = styled.div`
-  background-color: purple;
+  background-color: blueviolet;
+  height: 600px
 `;
